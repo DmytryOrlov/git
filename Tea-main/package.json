@@ -2,9 +2,9 @@
   "name": "websocket",
   "version": "1.0.0",
   "description": "test",
-  "homepage": "https://github.com/DmytryOrlov/tea#readme",
+  "homepage": "https://github.com/DmytryOrlov/tea.git",
   "bugs": {
-    "url": "https://github.com/DmytryOrlov/tea/issues"
+    "url": "https://github.com/DmytryOrlov/tea.git"
   },
   "repository": {
     "type": "git",
