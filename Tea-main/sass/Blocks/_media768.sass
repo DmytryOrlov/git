@@ -1,0 +1,156 @@
+@media (max-width: 768px)
+    .active
+        position: fixed
+        top: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.5)
+        z-index: 3
+        &-close
+            position: absolute
+            right: 120px
+            top: 5px
+            cursor: pointer
+            font-size: 35px
+            color: #754e29
+            z-index: 5
+        &-gamb
+            background-color: #fff
+            width: 70%
+            height: 550px
+            position: fixed
+            left: 15%
+            margin: 0 auto
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            &_link
+                &-item
+                    text-decoration: none
+                    font-family: Cormorant
+                    font-size: 24px
+                    color: #000
+                padding-top: 50px
+                display: flex
+                flex-direction: column
+                align-items: center
+                gap: 30px
+            &_akk
+                &-item
+                    font-family: OpenSans
+                    font-size: 13px
+                    font-weight: 300
+                    text-decoration: none
+                    color: #000
+                display: flex
+                flex-direction: column
+                gap: 35px
+                align-items: center
+            hr
+                width: 70%
+                color: #F7F2EA
+            &_img
+                width: 100%
+                height: 60px
+                background-color: #F7F2EA
+                display: flex
+                justify-content: center
+                align-items: center
+                gap: 70px
+                .nav_img
+                    display: flex
+                    justify-content: flex-end
+                    gap: 50px
+                        
+
+    .nav
+        justify-content: space-around
+        width: 100%
+        &_link
+            display: none
+        &_gamburger
+            width: 30%
+            display: block
+            color: red
+            &-hrom
+                margin-left: 30px
+                background: #000
+                width: 40px
+                height: 2px
+                margin-bottom: 4px
+    .head
+        width: 100%
+        &_title
+            padding-left: 20px
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            &-h
+                padding-top: 250px
+                width: 90%
+                font-size: 40px
+            &-descr
+                padding-top: 30px
+                width: 90%
+    main
+        .product
+            &_card
+                width: 80%
+                margin: 0 auto
+                display: flex
+                justify-content: space-around
+                flex-wrap: wrap
+                row-gap: 35px
+                margin-bottom: 150px
+                &-item
+                    width: calc( 90% / 3)
+                .descr
+                    margin-bottom: 0
+    section
+
+        .content
+            flex-wrap: wrap
+            padding-bottom: 82px
+            &_items
+                width: calc( 95% / 2)
+            .cl4
+                display: block
+    .block
+        .blog
+            flex-direction: column
+            align-items: flex-start
+            &_item
+                width: 80%
+            .chet
+                align-self: flex-end
+    .footer
+        .conteiner1
+            .wd1
+                width: 35%
+            .wd2
+                flex-direction: column
+                justify-content: flex-start
+                .conteiner_items
+                    .item2
+                        display: flex
+                        flex-direction: column
+                        .addr
+                            display: flex
+                            flex-direction: column
+                            justify-content: center
+                            align-items: center
+                            .item2_compani
+                                .compani1
+                                    display: flex
+                                    gap: 20px
+                                &_icon
+                                    margin-top: 40px
+                                    display: flex
+                                    justify-content: center
+                                    gap: 20px
+                                    align-items: center
+                        &_title
+                            margin-top: 50px
+                        &_descr
+                            padding-top: 0px

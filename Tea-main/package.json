@@ -1,0 +1,23 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "test",
+  "homepage": "https://github.com/DmytryOrlov/tea#readme",
+  "bugs": {
+    "url": "https://github.com/DmytryOrlov/tea/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytryOrlov/tea.git"
+  },
+  "license": "ISC",
+  "author": "Orlov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
